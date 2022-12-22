@@ -20,9 +20,9 @@ public class JdbcUtils {
 
             //步骤2：获取数据库连接 ,成功加载驱动后，必须使用DriverManager类的静态方法getConnection来获得连接对象；
             // Connection  conn=DriverManager.getConnection(数据库URL,数据库用户名,密码)
-            String url = "jdbc:mysql://localhost:3306/property_leasing?serverTimezone=UTC"; //数据库的地址
+            String url = "jdbc:mysql://localhost:3306/房屋租聘demo1?serverTimezone=UTC"; //数据库的地址
             String userName = "root";  //数据库用户名
-            String pwd = "root"; //数据库密码
+            String pwd = "13482316545l"; //数据库密码
             conn = DriverManager.getConnection(url, userName, pwd);
         }
     }
